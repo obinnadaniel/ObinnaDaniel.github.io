@@ -1,0 +1,252 @@
+/* font-family: 'Exo', sans-serif; */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Exo', sans-serif;
+}
+
+legend {
+    padding: 0;
+    transform: translate(-40%, -50%);
+    background: linear-gradient(180deg, #0f4c75, #3282b8);
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+.fas {
+    padding-top: 35px;
+}
+
+#fas {
+    padding-top: 35px;
+}
+
+
+/* ======================= ============== navbar   ====================== ======================*/
+
+.custom-cards {
+    border-radius: 5px;
+    -webkit-box-shadow: -4px 10px 155px -42px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -4px 10px 155px -42px rgba(0, 0, 0, 0.75);
+    box-shadow: -4px 10px 155px -42px rgba(0, 0, 0, 0.75);
+    padding: 3rem;
+    margin: 5rem 1rem;
+    background-color: #effcef;
+}
+
+.nav-item {
+    font-size: 1rem;
+    margin: 0 2%;
+}
+
+.navbar-brand {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+
+/* =================== ================ coloured text gradient!!! ======================  */
+
+.gradient-text {
+    font-family: "edoregular";
+    background: -webkit-linear-gradient(#0f4c75, #3282b8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+/* ====================== ======== gradient anchor  ============================== =========*/
+
+.gradient-button {
+    -webkit-box-shadow: -4px 10px 60px -6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -4px 10px 60px -6px rgba(0, 0, 0, 0.75);
+    box-shadow: -4px 10px 60px -6px rgba(0, 0, 0, 0.75);
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    padding: 16px 32px;
+    transition: 0.7s;
+    background: linear-gradient(#0f4c75, #3282b8);
+}
+
+.gradient-button:hover {
+    box-shadow: none;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* ======================== ====== header ========================= ==============================*/
+
+#header {
+    height: 700px;
+    background-color: #851d41;
+    padding: 2% 10%;
+}
+
+
+/* ==================== =================== header-components ========================= ==========*/
+
+.header-components {
+    padding-top: 200px;
+    text-align: center;
+}
+
+.header-components h1 {
+    font-size: 4rem;
+    font-family: "edoregular";
+}
+
+.header-components p {
+    font-size: 1.4rem;
+    color: #fff;
+}
+
+
+/* ================================= about me section ================================ */
+
+#about-me {
+    text-align: center;
+    padding: 5% 15%;
+}
+
+#about-me-row {
+    margin: 6% 0;
+    text-align: left;
+}
+
+.about-me-img {
+    border-radius: 5px;
+}
+
+
+/* ================================= services section ================================ */
+
+#services {
+    padding: 5% 15%;
+    color: #fff;
+    background-color: #343A40;
+    text-align: center;
+}
+
+.custom-cards p {
+    color: #343A40;
+}
+
+.custom-cards h4 {
+    padding-bottom: 1rem;
+}
+
+
+/* ================================= testimonials section ================================ */
+
+#testimonials {
+    text-align: center;
+    padding: 5% 15%;
+}
+
+.client-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+
+/* ================================= contact section ================================ */
+
+#contact-me {
+    background-image: url(https://ak8.picdn.net/shutterstock/videos/23582188/thumb/8.jpg);
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+#container-fluid {
+    padding: 5% 15%;
+}
+
+#container-fluid p {
+    color: #000;
+}
+
+
+/* ================================= contact section ================================ */
+
+#footer {
+    text-align: center;
+    padding: 2rem 15%;
+    background-color: #151515;
+}
+
+#footer h3 {
+    color: #fff;
+}
+
+
+/* css media queries */
+
+@media (max-width: 475px) {
+    #header {
+        padding: 5% 3%;
+    }
+    .navbar-toggler {
+        outline: none;
+    }
+    .navbar-collapse {
+        background-color: #151515;
+        border-radius: 5px;
+        padding: 3% 4%;
+    }
+    .header-components h1 {
+        font-size: 3rem;
+    }
+    #about-me {
+        padding: 5% 0%;
+    }
+    #about-me-row {
+        font-size: 0.8rem;
+        text-align: left;
+    }
+    #about-me-img {
+        width: 200px;
+    }
+    #about-me-row h1 {
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    .custom-cards {
+        padding: 3% 2%;
+    }
+    #services p {
+        font-size: 0.8rem;
+    }
+    #testimonials h1 {
+        font-size: 1.5rem;
+    }
+    #testimonials {
+        padding: 5% 0;
+    }
+    #contact-me p {
+        color: #fff;
+    }
+    #footer h3 {
+        font-size: 1rem;
+    }
+    .copyright {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 991px) and (max-width: 1353px) {
+    .custom-cards {
+        padding: 2% 1%;
+    }
+}
